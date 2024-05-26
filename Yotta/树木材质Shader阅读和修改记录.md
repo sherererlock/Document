@@ -76,7 +76,9 @@ GradientFalloff，越靠近MainColor
 
 #### 上述颜色与diffuse贴图的颜色相乘得到最终颜色
 
+#### 叶子半透的模拟
 
+直接光+环境光
 
 
 
