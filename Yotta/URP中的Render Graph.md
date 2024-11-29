@@ -26,6 +26,7 @@ RenderGraphResource <|-- RayTracingAccelerationStructureResource
 
 class TextureResource{
 	override void CreateGraphicsResource()
+	RTHandle graphicsResource
 }
 
 class BufferResource{
