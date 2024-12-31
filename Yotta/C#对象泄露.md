@@ -74,11 +74,7 @@
     object o = node.obj;
     if (o != null && o.Equals(null))
     {
-        node.obj = null;
-        if (collectListener != null)
-        {
-            collectListener(o, collectedIndex);
-        }
+        Debug.Log("Leaked object");
     }
 ```
 
